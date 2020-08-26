@@ -1,23 +1,43 @@
+body{
+  margin: 0;
+  font-family: Trebuchet MS, sans-serif;
+}
+
+/*header*/
+.header {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 30px;
+  font-size: 100px;
+  font-weight: bold;
+}
+
+/*navbar*/
 .navbar {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
   background-color: #333;
+  text-align: center;
 }
-
 .navbar-li {
-  float: left;
+  display: inline;
 }
-
 .navbar-li a {
-  display: block;
+  display: inline-block;
   color: white;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
 }
-
 .navbar-li a:hover {
   background-color: #111;
+}
+.active {
+  background-color: #4CAF50;
+}
+
+/*column*/
+.column{
+  float: left;
 }
