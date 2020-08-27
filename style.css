@@ -37,7 +37,42 @@ body{
   background-color: #4CAF50;
 }
 
-/*column*/
+.parent-white {
+  display: grid;
+  place-items: center;
+}
+
+.card {
+  width: clamp(43ch, 50%, 86ch);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 1rem;
+
+}
+
+.visual {
+  height: 125px;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
 .column{
   float: left;
+  width: 50%;
+  padding: 15px;
+}
+
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+}
+#t01 {
+  width: 100%;
+  background-color: #f1f1c1;
 }
